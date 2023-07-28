@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+    font-family: 'Cute Font', cursive, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  /* Meme Container Styles */
+  #memeContainer {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Generate Button Styles */
+  #generateBtn {
+    margin: 20px auto;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ff7d7d;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  #generateBtn:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Cute Handwriting Font */
+  @font-face {
+    font-family: 'Cute Font';
+    src: url('path/to/cute-font.ttf') format('truetype');
+  }
+  
+  /* Customize the rest of the styles as per your liking */
+  
